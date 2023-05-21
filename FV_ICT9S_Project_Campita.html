@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Fin Proj</title>
+</head>
+<body style="text-align: center; background: #B8DCD2">
+	
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr  color= #F5E8D5 style="height:20px">
+
+	<div class="container" style="color: #43447C; background:  #9B82AC; border-style: double;">
+		<h1>Convert Milimeter to...</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+     <h4>Centimeter </h4>
+ <input type="number" id="operandCM">
+<br>
+<button onclick="CM()"; class="btn";>solve</button>
+    </div>
+    <div class="col-6">
+ <h4> Meter </h4>
+ <input type="number" id="operandM">
+<br>
+<button onclick="M()"; class="btn">solve</button>
+</div>
+    </div>
+    <div class="col">
+<h4> Kilometer </h4>
+ <input type="number" id="operandKM">
+<br>
+<button onclick="KM()"; class="btn">solve</button>
+    </div>
+  </div>
+</div>
+<hr  color= #F5E8D5 style="height:20px">
+
+
+   <script type="text/javascript">
+let x = 10;
+let y = 1000;
+let z = 1000000; 
+
+
+
+function CM (){
+	let a = parseInt (document.getElementById("operandCM").value);
+	
+	alert(a / x)
+}    
+function M (){
+	let a = parseInt (document.getElementById("operandM").value);
+	
+	alert(a / y)
+}  
+function KM (){
+	let a = parseInt (document.getElementById("operandKM").value);
+	
+	alert(a / z)
+}  
+</script>  
+
+
+</body>
+</html>
